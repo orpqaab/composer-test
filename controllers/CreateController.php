@@ -10,7 +10,6 @@ class CreateController {
         return ob_get_flush();
     }
     public function showForm(){
-        getOutput();
         return $this->getOutput();
     }
 }

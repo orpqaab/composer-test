@@ -9,7 +9,8 @@ class CreateController {
         include \Work\ComposerTest\Configuration::VIEWS_DIR . "/create_success.html";
         return ob_get_flush();
     }
-    private function showForm(){
-        
+    public function showForm(){
+        getOutput();
+        return $this->getOutput();
     }
 }

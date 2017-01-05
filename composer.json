@@ -1,0 +1,10 @@
+{
+    "name": "venom/composer-test",
+    "authors": [
+        {
+            "name": "orpqaab",
+            "email": "orpqaab@gmail.com"
+        }
+    ],
+    "require": {}
+}
